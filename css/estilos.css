@@ -259,3 +259,37 @@ section{
 	text-align: justify;
       }
   
+
+  /*hasta aca es version de celular*/
+
+
+
+/*inicio MQ PARA tablets-*/
+
+@media screen and (min-width: 600px) {
+
+
+
+    main{
+    
+        grid-template-columns:1fr 1fr ;
+        grid-template-rows:repeat(2, 50%) ;
+        color: #033116;
+    
+      }
+    
+    
+    .img-uno, .img-tres{
+        grid-row: span 1;
+    }
+        
+    
+    .img-cuatro{
+        grid-column: span 2;
+    
+    }
+    
+    
+    } 
+    
+ 
